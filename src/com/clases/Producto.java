@@ -1,17 +1,24 @@
 package com.clases;
 
 public class Producto {
-    private String nombre;
+    private String nombreProducto;
     private String carateristicas;
     private String idProducto;
     private String condiciones;
 
-    public String getNombre() {
-        return nombre;
+    public Producto( String nombre, String carateristicas, String  idProducto, String condiciones){
+        this.nombreProducto = nombre;
+        this.carateristicas=carateristicas;
+        this.idProducto=idProducto;
+        this.condiciones=condiciones;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public String getNombreProducto() {
+        return nombreProducto;
+    }
+
+    public void setNombreProducto(String nombreProducto) {
+        this.nombreProducto = nombreProducto;
     }
 
     public String getCarateristicas() {

@@ -1,12 +1,37 @@
 package com.clases;
 
+import java.util.ArrayList;
 import java.util.List;
 
-public class Clientes {
+public class Clientes extends  Personas{
+
     private String nombre;
     private String telefono;
     private String direccion;
     private List<Producto> productos;
+
+
+
+    public Clientes(String nombre, String telefono, String direccion, ArrayList<Producto> productos){
+        super();
+        this.nombre = nombre;
+        this.telefono = telefono;
+        this.direccion = direccion;
+        this.productos=productos;
+
+    }
+
+    public Clientes(String nombreAnt) {
+    }
+
+    public Clientes(String nombreAnt, String nombreNuevo) {
+    }
+
+    public Clientes() {
+
+    }
+
+
 
     public String getNombre() {
         return nombre;

@@ -1,0 +1,13 @@
+
+N	java:S106;"9Replace this use of System.out or System.err by a logger.(ˆÓÂÎ
+7
+java:S1116["Remove this empty statement.(í´ñåùÿÿÿÿ
+N	java:S106j"9Replace this use of System.out or System.err by a logger.(¡¿·š
+N	java:S106H"9Replace this use of System.out or System.err by a logger.(ìï¡ª
+S	java:S106_"9Replace this use of System.out or System.err by a logger.(æøòÿÿÿÿÿ
+S	java:S106J"9Replace this use of System.out or System.err by a logger.(‹èÓÙüÿÿÿÿ
+X
+java:S1854f"=Remove this useless assignment to local variable "ccCliente".(«×ğ€úÿÿÿÿ
+S	java:S106r"9Replace this use of System.out or System.err by a logger.(·•’şÿÿÿÿ
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(·Æ–î

@@ -7,27 +7,33 @@ public class Empresas {
     private String documento;
     private String representante;
 
-    public String getTipDoc() {
+    public String getTipDoc()
+    {
         return tipDoc;
     }
 
-    public void setTipDoc(String tipDoc) {
+    public void setTipDoc(String tipDoc)
+    {
         this.tipDoc = tipDoc;
     }
 
-    public String getDocumento() {
+    public String getDocumento()
+    {
         return documento;
     }
 
-    public void setDocumento(String documento) {
+    public void setDocumento(String documento)
+    {
         this.documento = documento;
     }
 
-    public String getRepresentante() {
+    public String getRepresentante()
+    {
         return representante;
     }
 
-    public void setRepresentante(String representante) {
+    public void setRepresentante(String representante)
+    {
         this.representante = representante;
     }
 }

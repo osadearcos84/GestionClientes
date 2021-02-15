@@ -4,6 +4,16 @@ public class Personas {
     private String cedula;
     private String celular;
 
+    public Personas(String cedula, String celular) {
+        this.cedula=cedula;
+        this.celular=celular;
+
+    }
+
+    public Personas() {
+
+    }
+
     public String getCedula() {
         return cedula;
     }
@@ -12,11 +22,13 @@ public class Personas {
         this.cedula = cedula;
     }
 
-    public String getCelular() {
+    public String getCelular()
+    {
         return celular;
     }
 
-    public void setCelular(String celular) {
+    public void setCelular(String celular)
+    {
         this.celular = celular;
     }
 }
